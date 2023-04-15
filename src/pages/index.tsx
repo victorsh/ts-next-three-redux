@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import { Canvas } from '@react-three/fiber'
-import Box from '@/components/box'
+import Box from '@/components/canvas/box'
 
 const inter = Inter({ subsets: ['latin'] })
 

@@ -1,7 +1,9 @@
 {
   "name": "next-typed-three",
-  "version": "0.1.0",
-  "private": false,
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Victor Shahbazian",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
