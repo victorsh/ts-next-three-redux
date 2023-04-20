@@ -14,7 +14,7 @@ function Box(props: ThreeElements['mesh']) {
   return (
     <mesh {...props} ref={mesh}>
       <boxGeometry args={[1,1,1]} />
-      <meshBasicMaterial color={hovered ? 'hotpink' : 'orange'} />
+      <meshPhongMaterial color={hovered ? 'hotpink' : 'orange'} />
     </mesh>
   )
 }
